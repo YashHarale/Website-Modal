@@ -10,7 +10,7 @@ const openModal = () => {
   overlay.classList.remove('hidden');
 };
 
-const closeModal = function () {
+const closeModal = () => { 
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
 };
